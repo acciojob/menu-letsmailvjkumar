@@ -104,7 +104,8 @@ const App = () => {
         {categories.map((category, index) => {
           return (
             <div 
-              key={index} 
+              key={index}
+              id={`filter-btn-${index}`} 
               className={`list ${selectedCategory === category ? 'active' : ''}`}
               onClick={() => filterItems(category)}
             >
