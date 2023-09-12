@@ -97,7 +97,7 @@ const App = () => {
 
 
   return (
-    <div className="App">
+    <div className="App" id="main">
       <h2>Our Menu</h2>
       <hr></hr>
       <div className="navbar">
